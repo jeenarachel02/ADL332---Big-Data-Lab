@@ -1,0 +1,8 @@
+x<-c(1,3,5)
+y<-c(2,4,6)
+cat("x:",x,"\n")
+cat("y:",y,"\n")
+print("Row wise bind:")
+print(rbind(x,y))
+print("Column wise bind:")
+print(cbind(x,y))
